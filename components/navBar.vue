@@ -3,13 +3,12 @@
 <!-- Navbar -->
 <header class="bg-dark text-white py-3">
             <nav class="container d-flex justify-content-between align-items-center">
-                <h1 class="h4">Ahmed Gharib</h1>
+                <h1 class="h4">
+                    <NuxtLink to="/" class="text-white" style="text-decoration: none;">Ahmed Gharib</NuxtLink>
+                </h1>
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <NuxtLink to="/about" class="nav-link text-white">About</NuxtLink>
+                        <a class="nav-link text-white" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#projects">Projects</a>
