@@ -71,8 +71,8 @@ const projects = ref([
   width: 100%;
   display: flex;
   flex-direction: column;
-  overflow: hidden; /* Ensures the background image stays within bounds */
-  position: relative; /* Needed for the background zoom effect */
+  overflow: hidden; 
+  position: relative; 
 }
 
 .project-card::before {
@@ -85,40 +85,40 @@ const projects = ref([
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: inherit; /* Copies the background from the card */
-  transition: transform 0.3s ease; /* Smooth zoom effect */
-  z-index: -1; /* Keeps the image behind content */
+  background-image: inherit; 
+  transition: transform 0.3s ease; 
+  z-index: -1; 
 }
 
 .project-card:hover .card-image {
-  transform: scale(1.1); /* Zoom-in effect */
+  transform: scale(1.1); 
 }
 
 .project-card .card-body {
-  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+  background: rgba(0, 0, 0, 0.6); 
   padding: 20px;
   color: white;
-  z-index: 1; /* Ensures text stays above the zooming image */
+  z-index: 1;
   border-radius: 10px;
 }
 .project-card .card-body:hover {
-  background: rgba(0, 0, 0, 0.2); /* Dark overlay for better text visibility */
+  background: rgba(0, 0, 0, 0.2); 
   transition: background 0.5s ease;
 }
 
 .project-card:hover {
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add shadow for emphasis */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .project-card .btn {
-  background-color: rgb(255, 87, 51); /* Primary button color */
+  background-color: rgb(255, 87, 51); 
   border: none;
   color: white;
   transition: background-color 0.3s ease;
 }
 
 .project-card .btn:hover {
-  background-color: rgb(255, 50, 30); /* Darker shade for hover effect */
+  background-color: rgb(255, 50, 30); 
 }
 
 </style>

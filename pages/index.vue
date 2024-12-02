@@ -59,10 +59,10 @@
                 <p class="mt-3">If you'd like to get in touch, feel free to reach out via email or connect on LinkedIn.
                 </p>
                 <ul class="list-unstyled mt-4">
-                    <li>Email: <a href="mailto:youremail@example.com" class="text-primary">youremail@example.com</a>
+                    <li>Email: <a href="mailto:ahmed.c.gsm@gmail.com" class="text-primary">ahmed.c.gsm@gmail.com</a>
                     </li>
-                    <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank"
-                            class="text-primary">linkedin.com/in/yourprofile</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-mahmoud-026839194/" target="_blank"
+                            class="text-primary">linkedin.com/in/AhmedMahmoud</a></li>
                 </ul>
             </div>
         </section>

@@ -19,11 +19,11 @@
                 </ul>
                 <!-- Social Media Links -->
                 <div class="social-links d-flex">
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-white mx-2"
+                    <a href="https://www.linkedin.com/in/ahmed-mahmoud-026839194/" target="_blank" class="text-white mx-2"
                         aria-label="LinkedIn">
                         <i class="fab fa-linkedin fa-lg"></i>
                     </a>
-                    <a href="https://github.com/yourusername" target="_blank" class="text-white mx-2"
+                    <a href="https://github.com/hyperstunt" target="_blank" class="text-white mx-2"
                         aria-label="GitHub">
                         <i class="fab fa-github fa-lg"></i>
                     </a>
