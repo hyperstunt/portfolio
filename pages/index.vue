@@ -13,7 +13,7 @@
         <!-- About Section -->
         <section id="about" class="container py-5">
             <div class="row">
-                <div class="col-md-6 img-col">
+                <div class="col-md-6 mb-5 img-col">
                     <img src="/img/me.jpeg" alt="Ahmed Gharib" class="img-fluid">
                 </div>
 
@@ -54,28 +54,28 @@
 
         <!-- Contact Section -->
         <section id="contact" class="py-5">
-            <div class="container text-center">
-                <h2>Contact Me</h2>
-                <p class="mt-3">If you'd like to get in touch, feel free to reach out via email or connect on LinkedIn.
-                </p>
-                <ul class="list-unstyled mt-4">
-                    <li>Email: <a href="mailto:ahmed.c.gsm@gmail.com" class="text-primary">ahmed.c.gsm@gmail.com</a>
-                    </li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-mahmoud-026839194/" target="_blank"
-                            class="text-primary">linkedin.com/in/AhmedMahmoud</a></li>
-                </ul>
+            <div class="container">
+                <h2 style="color: #FF5733; font-weight: bold;">Contact Me</h2>
+                <EmailForm />
             </div>
         </section>
+        <AppFooter></AppFooter>
     </div>
 </template>
 
 
 <script setup lang="ts">
+import AppFooter from '~/components/App-footer.vue';
+
 </script>
 
 <style lang="scss" scoped>
 * {
     font-family: 'helvetica';
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 .img-col {
@@ -91,7 +91,8 @@
     border: 5px solid rgb(255, 87, 51);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.Project-sec-title{
+
+.Project-sec-title {
     text-align: center;
     color: #FF5733;
     font-weight: bold;
